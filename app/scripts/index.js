@@ -1,3 +1,3 @@
-window.onload = function (ev) {
+window.onload = function () {
     alert('OK')
 };
