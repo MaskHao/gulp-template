@@ -207,6 +207,7 @@ gulp.task('run', () => {
 
     // 监听文件变化，执行相应任务
     gulp.watch('./app/styles/**/*.scss', ['sass']);
+    gulp.watch('./app/styles/**/*.less', ['less']);
     gulp.watch('./app/scripts/**/*.js', ['babel-js']);
     gulp.watch('./app/imgs/**/*.{png,jpg,gif,ico}', ['move-img']);
     gulp.watch('./app/_data/*.json', ['move-json']);
